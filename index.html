@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>From Edin to Whiyet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Great+Vibes&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="scene" aria-label="A romantic letter from Edin to Whiyet">
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+    <div class="ambient ambient-three"></div>
+    <div class="floating-hearts" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <section class="message-stage" aria-live="polite">
+      <button class="envelope" type="button" aria-expanded="false" aria-controls="love-letter">
+        <span class="envelope-shadow"></span>
+        <span class="paper-preview">
+          <span class="paper-preview-title">Whiyet</span>
+          <span class="paper-preview-line"></span>
+          <span class="paper-preview-line short"></span>
+        </span>
+        <span class="envelope-back"></span>
+        <span class="envelope-flap"></span>
+        <span class="envelope-front"></span>
+        <span class="envelope-name">Whiyet</span>
+        <span class="seal" aria-hidden="true">Love</span>
+      </button>
+
+      <p class="hint">Click to open me</p>
+
+      <article class="letter" id="love-letter" tabindex="-1" aria-hidden="true">
+        <div class="letter-body">
+          <p>My love, you mean more to me than words can ever properly say.</p>
+
+          <p>I love you so, so much. You honestly make my days brighter without even trying. You're the first person I want to tell things to, and I always find myself looking forward to talking to you. Somehow hearing your voice can instantly make me smile, and seeing you always makes my whole day feel softer, warmer, and better.</p>
+
+          <p>I love how much you make me laugh, even when you're being an absolute menace and ragebaiting me on purpose just to get a reaction. You know exactly what buttons to press, and somehow I still fall for it every single time. As annoying as you can be when you're doing it, I secretly love that we can joke around like that and never run out of things to laugh about.</p>
+
+          <p>I love our conversations, our random moments, our inside jokes, and even the times when we're doing absolutely nothing but still enjoying each other's company. You make ordinary days feel special, and you always manage to put me in a better mood without even realizing it.</p>
+
+          <p>Thank you for always making me smile, for making me laugh until my stomach hurts, for listening to me, and for being the one I can always look forward to talking to. You make me feel cared for in the sweetest little ways, and I love that about you.</p>
+
+          <p>I hope you know that you're my favorite person, my safest smile, and one of the sweetest parts of my life. I feel so lucky to have you, and I can't wait for all the laughs, memories, and soft little moments we still have ahead of us.</p>
+        </div>
+
+        <footer class="letter-footer">
+          <span class="forever-line">You will always be my favorite.</span>
+          <span>With all my love,</span>
+          <strong>Edin</strong>
+        </footer>
+      </article>
+
+      <button class="close-letter" type="button" hidden>Close letter</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
